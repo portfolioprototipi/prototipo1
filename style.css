@@ -46,3 +46,10 @@ main {
   border-radius: 8px;
   box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
 }
+img {
+  -webkit-user-drag: none;   /* Chrome / Safari */
+  -moz-user-select: none;     /* Firefox */
+  -ms-user-select: none;      /* IE/Edge */
+  user-select: none;
+  pointer-events: none;       /* impedisce il drag */
+}
